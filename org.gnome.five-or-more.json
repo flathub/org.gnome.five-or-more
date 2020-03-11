@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.five-or-more",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "3.36",
     "sdk": "org.gnome.Sdk",
     "command": "five-or-more",
     "finish-args": [
@@ -12,11 +12,15 @@
     "modules": [
         {
             "name": "libgnome-games-support",
-            "sources": [{
-                "type": "archive",
-                "url": "https://download.gnome.org/sources/libgnome-games-support/1.4/libgnome-games-support-1.4.0.tar.xz",
-                "sha256": "1d89b145da7d4aedae3fa75456d97ed1b4a5bc062a01e7d0db93b006bdf11456"
-            }]
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/GNOME/libgnome-games-support.git",
+                    "tag": "1.6.0.1",
+                    "commit": "0aca5d736973e69972e1dd79f55a233971fbae7e"
+                }
+            ]
         },
         {
             "name": "five-or-more",
