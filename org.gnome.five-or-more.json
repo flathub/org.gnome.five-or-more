@@ -15,10 +15,9 @@
             "buildsystem": "meson",
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/libgnome-games-support.git",
-                    "tag": "1.6.0.1",
-                    "commit": "0aca5d736973e69972e1dd79f55a233971fbae7e"
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/libgnome-games-support/1.6/libgnome-games-support-1.6.1.tar.xz",
+                    "sha256": "fb686af62e24dc33f26c581aa019fcdf3605787dd76cb59ac99a8a34d1b808bf"
                 }
             ]
         },
@@ -26,10 +25,9 @@
             "name": "five-or-more",
             "buildsystem": "meson",
             "sources": [{
-                "type": "git",
-                "url": "https://gitlab.gnome.org/GNOME/five-or-more.git",
-                "branch": "gnome-3-32",
-                "commit": "510a2aaba65ed5fdf3abc8004c2a7f74172e7900"
+                "type": "archive",
+                "url": "https://download.gnome.org/sources/five-or-more/3.32/five-or-more-3.32.2.tar.xz",
+                "sha256": "311a2693dd04226d32b6d7a02e4c739341bf5bd3492e3285c3910db73e47eea6"
             }]
         }
     ]
