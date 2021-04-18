@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.five-or-more",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.36",
+    "runtime-version": "40",
     "sdk": "org.gnome.Sdk",
     "command": "five-or-more",
     "finish-args": [
@@ -16,8 +16,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libgnome-games-support/1.6/libgnome-games-support-1.6.1.tar.xz",
-                    "sha256": "fb686af62e24dc33f26c581aa019fcdf3605787dd76cb59ac99a8a34d1b808bf"
+                    "url": "https://download.gnome.org/sources/libgnome-games-support/1.8/libgnome-games-support-1.8.1.tar.xz",
+                    "sha256": "c37b7acd3ba7eb12207f5d7bb020535fa5783b0bd897e51b2bd629ce119a413f"
                 }
             ]
         },
