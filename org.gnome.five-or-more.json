@@ -10,6 +10,14 @@
         "--socket=wayland",
         "--device=dri"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/share/man",
+        "/share/vala",
+        "*.la",
+        "*.a"
+    ],
     "modules": [
         {
             "name": "libgnome-games-support",
